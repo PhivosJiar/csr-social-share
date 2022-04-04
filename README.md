@@ -64,3 +64,11 @@ In template:
 ```
 
 ## Result
+
+In Line:<br>
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/59075881/161602175-50ea2e99-0553-48ac-88a8-b4dbf6fa892a.png"><br>
+
+open url:<br>
+The user will go to the URL you set. <br>
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/59075881/161602622-61182ac1-73e3-403c-a58c-4ab85af0a750.png">
+
