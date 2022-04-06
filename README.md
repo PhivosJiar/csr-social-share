@@ -47,7 +47,7 @@ async generateShareUrl(){
 // This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.
 socialShare(){
   if(!canUseShare(this.shareDataInfo)){
-    rerutn;
+    return;
   }
   
   share(this.shareDataInfo);
