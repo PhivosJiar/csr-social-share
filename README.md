@@ -1,7 +1,7 @@
 <h1 align="center">csr-social-share</h1>
 
 ## The Why?
-csr-social-share makes dymanic set link preview easier in client side render application,this package support Typescript and Javascript.
+csr-social-share makes dynamic set link preview easier in client side render application,this package support Typescript and Javascript.
 
 ## Usage
 Using npm:
@@ -19,7 +19,7 @@ const previewInfo = {
   // {string} set link preview title
   title: 'social share demo title', 
   // {string} set link preview description.
-  description: 'csr-social-share makes dymanic set link preview easier in client side render application.',
+  description: 'csr-social-share makes dynamic set link preview easier in client side render application.',
   // {string} set link preview image.
   imageUrl: 'https://wpjian.com/wp-content/uploads/2019/05/the-seo-guide-to-angular-760x400.png',
   // {string} the purpose of the user clicking the link guide.
@@ -39,7 +39,7 @@ const shareDataInfo = {
   files: [] 
 };
 
-// You can dymanic set link preview info.
+// You can dynamic set link preview info.
 async generateShareUrl(){
   this.shareDataInfo.url = await generateUrl(this.previewInfo);
 }
